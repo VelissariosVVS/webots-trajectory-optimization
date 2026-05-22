@@ -4,6 +4,12 @@
 
 This project presents a trajectory optimization and motion control framework for an autonomous mobile robot simulated in the Webots environment. The system generates optimized wheel control trajectories and evaluates robot performance using simulation-based tracking, odometry, and feedback control techniques.
 
+## Simulation Preview
+
+<p align="center">
+  <img src="assets/simulation_preview.jpg" width="700"/>
+</p>
+
 The project demonstrates:
 
 * Trajectory generation using optimized wheel velocity profiles
