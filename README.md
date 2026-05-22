@@ -7,7 +7,7 @@ This project presents a trajectory optimization and motion control framework for
 ## Simulation Preview
 
 <p align="center">
-  <img src="assets/simulation_preview.jpg" width="700"/>
+  <img src="webots_trajectory_optimization/assets/simulation_preview.jpg" width="700"/>
 </p>
 
 The project demonstrates:
