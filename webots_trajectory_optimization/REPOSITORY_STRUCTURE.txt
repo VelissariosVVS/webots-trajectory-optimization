@@ -1,0 +1,21 @@
+webots_trajectory_optimization/
+├── assets/
+│   └── simulation_preview.jpg
+├── controllers/
+│   ├── open_loop_odometry/
+│   │   └── open_loop_odometry.py
+│   └── trajectory_follower/
+│       └── trajectory_follower.py
+├── data/
+│   ├── timed_controls_dense.txt
+│   ├── timed_controls_no_obstacles.txt
+│   ├── timed_controls_with_obstacles.txt
+│   └── trajectory.txt
+├── docs/
+│   └── PROJECT_NOTES.md
+├── worlds/
+│   ├── .trajectory_optimization.wbproj
+│   └── trajectory_optimization.wbt
+├── .gitignore
+├── REPOSITORY_STRUCTURE.txt
+└── requirements.txt

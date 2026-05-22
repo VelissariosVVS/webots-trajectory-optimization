@@ -1,0 +1,65 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/obstacles/protos/OilBarrel.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.27418062841518653 0.2882460932782952 0.917463444891214 1.6069138446566251
+  position 2.039906782376402 -9.287053481501966 5.225431217069051
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 20 20
+}
+OilBarrel {
+  translation 1.2 0.4 0
+  radius 0.06
+}
+OilBarrel {
+  translation 0.5 1 0
+  name "oil barrel(1)"
+  radius 0.1
+}
+OilBarrel {
+  translation 2 1.5 0
+  name "oil barrel(2)"
+  radius 0.12
+}
+OilBarrel {
+  translation 3.8 0.9 0
+  name "oil barrel(3)"
+  radius 0.15
+}
+OilBarrel {
+  translation 4.5 1.2 0
+  name "oil barrel(4)"
+  radius 0.08
+}
+OilBarrel {
+  translation 2.7 0.3 0
+  name "oil barrel(5)"
+  radius 0.07
+}
+OilBarrel {
+  translation 3.2 1.8 0
+  name "oil barrel(6)"
+  radius 0.2
+}
+Pioneer3dx {
+  translation 0 0 0
+  controller "trajectory_follower"
+  extensionSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
